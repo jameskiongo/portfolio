@@ -4,13 +4,13 @@ import { useEffect, useState } from "react";
 
 function Navbar() {
   const [theme, setTheme] = useState(
-    localStorage.getItem("theme") ? localStorage.getItem("theme") : "valentine",
+    localStorage.getItem("theme") ? localStorage.getItem("theme") : "light",
   );
   const handleToggle = (e) => {
     if (e.target.checked) {
       setTheme("dark");
     } else {
-      setTheme("valentine");
+      setTheme("light");
     }
   };
   useEffect(() => {
@@ -21,7 +21,7 @@ function Navbar() {
   }, [theme]);
 
   return (
-    <div className="navbar px-20 bg-base-100">
+    <div className="navbar md:px-20 md:h-36 bg-base-100">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn lg:hidden btn-ghost">
@@ -42,7 +42,7 @@ function Navbar() {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow-2xl hover:shadow-md"
           >
             <li>
               <a>About</a>
@@ -58,9 +58,9 @@ function Navbar() {
             </li>
           </ul>
         </div>
-        <a className=" logo-text px-4 lg:text-4xl">James Kiongo</a>
+        <a className=" logo-text lg:px-4 lg:text-4xl sm:px-2">James Kiongo</a>
       </div>
-      <div className="navbar-end hidden lg:flex lg:items-center lg:justify-center">
+      <div className="navbar-end hidden lg:flex lg:items-center lg:justify-end">
         <ul className="menu menu-horizontal text-lg px-1">
           <li>
             <a>About</a>
@@ -78,11 +78,10 @@ function Navbar() {
             {/* <Swap handleToggle={handleToggle} /> */}
             <label className="swap swap-rotate">
               {/* this hidden checkbox controls the state */}
-
               <input
                 type="checkbox"
                 onChange={handleToggle}
-                checked={theme === "valentine" ? false : true}
+                checked={theme === "light" ? false : true}
               />
               {/* sun icon */}
               <svg
@@ -112,7 +111,7 @@ function Navbar() {
           <input
             type="checkbox"
             onChange={handleToggle}
-            checked={theme === "valentine" ? false : true}
+            checked={theme === "light" ? false : true}
           />
 
           {/* sun icon */}

@@ -17,7 +17,7 @@ export default {
       {
         dark: {
           ...require("daisyui/src/theming/themes")["[data-theme=dark]"],
-          "base-100": "#496DB1",
+          "base-100": "#022F53",
         },
       },
     ], // false: only light + dark | true: all themes | array: specific themes like this ["light", "dark", "cupcake"]
