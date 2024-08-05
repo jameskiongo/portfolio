@@ -58,10 +58,10 @@ function Navbar() {
             </li>
           </ul>
         </div>
-        <a className=" logo-text px-4 text-xl">James Kiongo</a>
+        <a className=" logo-text px-4 lg:text-4xl">James Kiongo</a>
       </div>
-      <div className="navbar-end hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
+      <div className="navbar-end hidden lg:flex lg:items-center lg:justify-center">
+        <ul className="menu menu-horizontal text-lg px-1">
           <li>
             <a>About</a>
           </li>

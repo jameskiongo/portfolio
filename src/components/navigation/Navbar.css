@@ -3,3 +3,17 @@
 .logo-text {
   font-family: "Share Tech Mono", monospace;
 }
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu li {
+  margin: 0 10px; /* Adjust the spacing as needed */
+}
+
+.swap {
+  display: flex;
+  align-items: center;
+}
