@@ -1,13 +1,11 @@
-import "./Profile.css";
 function Profile() {
   return (
     <>
-      <section className="container mx-auto flex flex-col md:flex-row items-center">
-        <div className=" w-full flex md:justify-end md:w-1/2 justify-center">
+      <section className="container mx-auto h-full md:h-82 flex flex-col md:flex-row justify-center items-center">
+        <div className="w-full flex md:justify-end md:w-1/2 justify-center">
           <img
             src="https://www.softrizon.com/wp-content/uploads/2020/12/RAD.svg"
             alt="Hero Image"
-            className="rounded-lg"
           />
         </div>
         <div className="w-full md:w-1/2 mt-8 md:mt-0 md:ml-8 flex flex-col items-center text-center sm:mt-0 pb-5">

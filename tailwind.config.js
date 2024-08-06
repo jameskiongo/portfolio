@@ -2,7 +2,13 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      height: {
+        82: "82vh",
+        80: "80vh",
+        96: "96vh",
+      },
+    },
   },
   plugins: [require("daisyui")],
   daisyui: {
@@ -17,7 +23,7 @@ export default {
       {
         dark: {
           ...require("daisyui/src/theming/themes")["[data-theme=dark]"],
-          "base-100": "#022F53",
+          "base-100": "#2C547A",
         },
       },
     ], // false: only light + dark | true: all themes | array: specific themes like this ["light", "dark", "cupcake"]
