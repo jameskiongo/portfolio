@@ -21,7 +21,7 @@ function Navbar() {
   }, [theme]);
 
   return (
-    <div className="navbar md:px-20 md:h-36 bg-base-100">
+    <div className="navbar fixed md:px-20 md:h-17 bg-base-100">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn lg:hidden btn-ghost">

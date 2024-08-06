@@ -1,7 +1,7 @@
 function Profile() {
   return (
     <>
-      <section className="container mx-auto h-full md:h-82 flex flex-col md:flex-row justify-center items-center">
+      <section className="container mx-auto h-100 pt-20 flex flex-col md:flex-row justify-center items-center">
         <div className="w-full flex md:justify-end md:w-1/2 justify-center">
           <img
             src="https://www.softrizon.com/wp-content/uploads/2020/12/RAD.svg"
