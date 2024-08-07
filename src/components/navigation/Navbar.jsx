@@ -48,7 +48,7 @@ function Navbar() {
               <a>About</a>
             </li>
             <li>
-              <a>Experience</a>
+              <a>Tech Stack</a>
             </li>
             <li>
               <a>Projects</a>
@@ -66,7 +66,7 @@ function Navbar() {
             <a>About</a>
           </li>
           <li>
-            <a>Experience</a>
+            <a>Tech Stack</a>
           </li>
           <li>
             <a>Projects</a>

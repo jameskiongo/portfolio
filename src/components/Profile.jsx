@@ -1,7 +1,7 @@
 function Profile() {
   return (
     <>
-      <section className="container mx-auto h-100 pt-20 flex flex-col md:flex-row justify-center items-center">
+      <section className="container mx-auto min-h-screen pt-20 flex flex-col md:flex-row justify-center items-center">
         <div className="w-full flex md:justify-end md:w-1/2 justify-center">
           <img
             src="https://www.softrizon.com/wp-content/uploads/2020/12/RAD.svg"
@@ -19,7 +19,7 @@ function Profile() {
             </button>
           </div>
           <div className="flex justify-center space-x-4 mt-4">
-            <a href="">
+            <a href="https://www.linkedin.com/in/jameskiongo/">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="size-9"
@@ -31,7 +31,7 @@ function Profile() {
                 ></path>
               </svg>
             </a>
-            <a href="">
+            <a href="https://github.com/jameskiongo">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="size-9"
@@ -46,9 +46,6 @@ function Profile() {
               </svg>
             </a>
           </div>
-          {/* <button className="mt-6 px-6 py-2 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700"> */}
-          {/*   Call to Action */}
-          {/* </button> */}
         </div>
       </section>
     </>
