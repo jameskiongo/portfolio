@@ -1,5 +1,4 @@
 import ExpressIcon from "../Icons/ExpressIcon";
-import MaterialIcon from "../Icons/MaterialIcon";
 import NodeIcon from "../Icons/NodeIcon";
 import ReactIcon from "../Icons/ReactIcon";
 

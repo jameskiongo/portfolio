@@ -1,7 +1,12 @@
+import { Link } from "react-scroll";
 function Profile() {
   return (
     <>
-      <section className="container mx-auto min-h-screen pt-20 flex flex-col md:flex-row justify-center items-center">
+      <section
+        id="profile-section"
+        name="profile-section"
+        className="container mx-auto min-h-screen pt-20 flex flex-col md:flex-row justify-center items-center"
+      >
         <div className="w-full flex md:justify-end md:w-1/2 justify-center">
           <img
             src="https://www.softrizon.com/wp-content/uploads/2020/12/RAD.svg"
@@ -14,9 +19,13 @@ function Profile() {
           <p className="text-3xl font-bold">Backend Developer</p>
           <div className="flex justify-center space-x-4 mt-4">
             <button className="btn btn-outline rounded-3xl">Download Cv</button>
-            <button className="btn btn-outline rounded-3xl">
-              Contact Info
-            </button>
+            <Link
+              smooth={true}
+              to="contact-section"
+              className="btn btn-outline rounded-3xl"
+            >
+              Contact Me
+            </Link>
           </div>
           <div className="flex justify-center space-x-4 mt-4">
             <a href="https://www.linkedin.com/in/jameskiongo/">

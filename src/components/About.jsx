@@ -1,7 +1,11 @@
 function About() {
   return (
     <>
-      <section className="container mx-auto space-x-4 min-h-screen  md:pt-0 flex flex-col justify-center items-center text-center">
+      <section
+        id="about-section"
+        name="about-section"
+        className="container mx-auto space-x-4 min-h-screen  md:pt-0 flex flex-col justify-center items-center text-center"
+      >
         <div className=" w-full my-0 mt-12 flex flex-col items-center text-center">
           <h1 className="text-sm font-normal">Get to know more</h1>
           <h2 className="text-7xl mb-6 mt-2 font-extrabold">About me</h2>

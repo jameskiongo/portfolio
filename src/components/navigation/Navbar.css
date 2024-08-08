@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
 
+.active {
+  opacity: 0.6;
+}
 .logo-text {
   font-family: "Share Tech Mono", monospace;
 }

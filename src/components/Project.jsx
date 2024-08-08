@@ -4,7 +4,11 @@ import ChatProject from "./Projects/ChatProject";
 function Project() {
   return (
     <div>
-      <section className="container mx-auto min-h-screen  md:pt-0 flex flex-col justify-center items-center">
+      <section
+        id="project-section"
+        name="project-section"
+        className="container mx-auto min-h-screen  md:pt-0 flex flex-col justify-center items-center"
+      >
         <div className="mx-auto w-full my-0 mt-12 items-center text-center">
           <h1 className="text-sm font-normal">Recent</h1>
           <h2 className="text-7xl mb-6 mt-2 font-extrabold">Projects</h2>
