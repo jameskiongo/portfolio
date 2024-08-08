@@ -1,4 +1,5 @@
 import { Link } from "react-scroll";
+import Pdf from "../jameskiongo-Cv.pdf";
 function Profile() {
   return (
     <>
@@ -18,7 +19,13 @@ function Profile() {
           <h2 className="text-7xl mt-2 font-extrabold">James Kiongo</h2>
           <p className="text-3xl font-bold">Backend Developer</p>
           <div className="flex justify-center space-x-4 mt-4">
-            <button className="btn btn-outline rounded-3xl">Download Cv</button>
+            <a
+              href={Pdf}
+              target="_blank"
+              className="btn btn-outline rounded-3xl"
+            >
+              Download Cv
+            </a>
             <Link
               smooth={true}
               to="contact-section"
