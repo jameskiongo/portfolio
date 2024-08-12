@@ -1,4 +1,5 @@
 import "./App.css";
+import { Analytics } from "@vercel/analytics/react";
 import Navbar from "./components/navigation/Navbar";
 import Profile from "./components/Profile";
 import About from "./components/About";
@@ -9,6 +10,7 @@ import Project from "./components/Project";
 function App() {
   return (
     <div className="">
+      <Analytics />
       <Navbar />
       <Profile />
       <About />
