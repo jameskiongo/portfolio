@@ -1,4 +1,5 @@
 import { Link } from "react-scroll";
+import myPic from "../assets/RAD.svg";
 import Pdf from "../jameskiongo-Cv.pdf";
 function Profile() {
   return (
@@ -9,10 +10,7 @@ function Profile() {
         className="container mx-auto min-h-screen pt-20 flex flex-col md:flex-row justify-center items-center"
       >
         <div className="w-full flex md:justify-end md:w-1/2 justify-center">
-          <img
-            src="https://www.softrizon.com/wp-content/uploads/2020/12/RAD.svg"
-            alt="Hero Image"
-          />
+          <img src={myPic} alt="Hero Image" />
         </div>
         <div className="w-full md:w-1/2 mt-8 md:mt-0 md:ml-8 flex flex-col items-center text-center sm:mt-0 pb-5">
           <h1 className="text-sm font-normal">Hello, I'm</h1>

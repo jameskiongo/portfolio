@@ -1,3 +1,4 @@
+import myPic from "../assets/raiseYourIQ.svg";
 function About() {
   return (
     <>
@@ -11,10 +12,7 @@ function About() {
           <h2 className="text-7xl mb-6 mt-2 font-extrabold">About me</h2>
         </div>
         <div className="hero-content py-0 flex-col lg:flex-row">
-          <img
-            src="https://nbackchallenge.com/images/raiseYourIQ.svg"
-            className="max-w-sm"
-          />
+          <img src={myPic} className="max-w-sm" />
           <div className="hero-content flex flex-col text-center">
             <div className="flex w-full flex-row gap-4 md:gap-10">
               <div className="card w-full flex flex-col items-center text-center py-6 shadow-xl">
