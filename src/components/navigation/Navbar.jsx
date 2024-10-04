@@ -142,7 +142,7 @@ function Navbar() {
             </li>
           </ul>
         </div>
-        <div className="navbar-end px-4 lg:hidden">
+        <div className="navbar-end px-4">
           {/* <Swap handleToggle={handleToggle} /> */}
           <label className="swap swap-rotate">
             {/* this hidden checkbox controls the state */}
