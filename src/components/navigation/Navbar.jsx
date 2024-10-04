@@ -23,7 +23,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className="navbar fixed md:px-20 md:h-17 bg-base-100 z-[1]">
+      <div className="navbar fixed md:px-20 md:h-17 bg-base-100 z-[1]">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn lg:hidden btn-ghost">
@@ -142,7 +142,7 @@ function Navbar() {
             </li>
           </ul>
         </div>
-        <div className="navbar-end px-4">
+        <div className="navbar-end px-4 lg:hidden">
           {/* <Swap handleToggle={handleToggle} /> */}
           <label className="swap swap-rotate">
             {/* this hidden checkbox controls the state */}
@@ -171,7 +171,7 @@ function Navbar() {
             </svg>
           </label>
         </div>
-      </nav>
+      </div>
     </>
   );
 }
