@@ -5,11 +5,11 @@ function Contact() {
       <section
         id="contact-section"
         name="contact-section"
-        className="container mx-auto min-h-screen  md:pt-0 flex flex-col justify-center items-center"
+        className="container mx-auto my-6 max-w-6xl md:pt-0 flex flex-col justify-center items-center"
       >
         <div className="mx-auto w-full my-0 mt-12 items-center text-center">
           <h1 className="text-sm font-normal">Get In Touch</h1>
-          <h2 className="text-7xl mb-6 mt-2 font-extrabold">Contact Me</h2>
+          <h2 className="text-7xl mb-3 mt-2 font-extrabold">Contact Me</h2>
         </div>
         <div className="card w-full flex flex-col gap-4 items-center">
           <article className="flex justify-around gap-2 items-center text-center">

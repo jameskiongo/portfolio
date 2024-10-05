@@ -23,7 +23,7 @@ function Navbar() {
 
   return (
     <>
-      <div className="navbar fixed md:px-20 md:h-17 bg-base-100 z-[1]">
+      <nav className="navbar fixed md:px-20 shadow-md md:h-17 bg-base-100 z-[1]">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn lg:hidden btn-ghost">
@@ -47,9 +47,9 @@ function Navbar() {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow-2xl hover:shadow-md"
             >
               <li>
-                <Link activeClass="active" smooth spy to="about-section">
-                  About
-                </Link>
+                {/* <Link activeClass="active" smooth spy to="about-section"> */}
+                {/*   About */}
+                {/* </Link> */}
               </li>
               <li>
                 <Link activeClass="active" smooth spy to="experience-section">
@@ -73,14 +73,14 @@ function Navbar() {
         <div className="navbar-end hidden lg:flex lg:items-center lg:justify-end">
           <ul className="menu menu-horizontal text-lg px-1">
             <li>
-              <Link
-                activeClass="active"
-                spy={true}
-                smooth={true}
-                to="about-section"
-              >
-                About
-              </Link>
+              {/* <Link */}
+              {/*   activeClass="active" */}
+              {/*   spy={true} */}
+              {/*   smooth={true} */}
+              {/*   to="about-section" */}
+              {/* > */}
+              {/*   About */}
+              {/* </Link> */}
             </li>
             <li>
               <Link
@@ -171,7 +171,7 @@ function Navbar() {
             </svg>
           </label>
         </div>
-      </div>
+      </nav>
     </>
   );
 }
