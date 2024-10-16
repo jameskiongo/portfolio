@@ -8,9 +8,9 @@ function AmazonProject() {
     <>
       <div className="w-full py-6">
         <img
-          src="https://scrapfly.io/blog/content/images/how-to-build-a-price-tracker-using-python-web-scraping_banner_light.svg"
-          className="rounded-lg"
+          src="https://notify-me.rs/static/media/trackPriceChangesOnWebsitesEssentialsTips.2666437be83a11f1605d.jpg"
           alt=""
+          className=" h-81 w-full"
         />
       </div>
       <div className="w-full flex justify-between">

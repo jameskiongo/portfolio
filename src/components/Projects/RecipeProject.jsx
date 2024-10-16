@@ -10,7 +10,7 @@ function RecipeProject() {
         <img
           src="https://miro.medium.com/v2/resize:fit:2000/format:webp/1*zPmZTe5EbzJKFz6kJEWLyQ.jpeg"
           alt=""
-          className="rounded-lg"
+          className=" h-81 w-full"
         />
       </div>
 
