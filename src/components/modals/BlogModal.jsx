@@ -34,7 +34,7 @@ function BlogModal() {
             <h3 className="font-bold text-lg text-left underline">
               Blog Application
             </h3>
-            <a href="" className="">
+            <a href="https://github.com/jameskiongo/blog-app" className="">
               <GithubIcon />
             </a>
           </div>
