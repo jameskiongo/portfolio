@@ -1,7 +1,7 @@
 import { Link } from "react-scroll";
 import myPic from "../assets/RAD.svg";
 import mail from "../assets/mail.svg";
-import Pdf from "../jameskiongo-Cv.pdf";
+import Pdf from "../kiongo-cv.pdf";
 function Profile() {
   return (
     <>
